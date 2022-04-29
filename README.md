@@ -18,6 +18,10 @@ Page built using only HTML, CSS and JS
 - API consumption
 - Deployment
 
+### Deploy
+To access the project click [here](https://instapage.surge.sh/)
+https://instapage.surge.sh/
+
 
 #### Layout
 ![image](https://user-images.githubusercontent.com/58530162/165882134-8e15a946-84f5-4d6a-86f9-3dad85452d50.png)
