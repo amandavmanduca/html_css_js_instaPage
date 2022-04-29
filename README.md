@@ -20,7 +20,8 @@ Page built using only HTML, CSS and JS
 
 ### Deploy
 To access the project click [here](https://instapage.surge.sh/)
-https://instapage.surge.sh/
+
+Deployed at Surge: https://instapage.surge.sh/
 
 
 #### Layout
