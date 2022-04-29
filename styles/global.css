@@ -161,3 +161,7 @@ footer {
     font-height: 14.52px;
     font-weight: 700;
 }
+
+.animate_like:active {
+    transform: scale(1.25);
+}
