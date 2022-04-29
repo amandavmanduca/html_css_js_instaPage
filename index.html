@@ -33,9 +33,16 @@
                         </div>
                     </div>
                     <div class="icons">
-                        <img src="./images/icons/heart-icon.svg" alt="" class="icon like-icon">
-                        <img src="./images/icons/comment-icon.svg" alt="" class="icon comment-icon">
-                        <img src="./images/icons/foward-icon.svg" alt="" class="icon foward-icon">
+                        <svg onclick="handleLike()" class="icon like-icon" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="like-icon-path" d="M11.1922 3.38947L12.0108 4.51127L12.8152 3.37921C13.9861 1.73118 15.3883 1 17.3 1C20.3746 1 23 3.72619 23 7.25C23 10.405 20.7845 12.4187 18.0873 14.6589C17.8128 14.8587 17.5359 15.1071 17.3041 15.3151C17.2108 15.3988 17.1248 15.4759 17.0492 15.5407L17.04 15.5486L17.031 15.5567L16.031 16.4567L16.031 16.4567L16.0229 16.4641C14.7715 17.6154 13.9306 18.382 13.3415 18.8974C12.7382 19.4253 12.4494 19.6442 12.2855 19.7425C12.2252 19.7787 12.1585 19.8087 12.0968 19.8283C12.0368 19.8474 12.0037 19.8497 12.0003 19.85C12 19.85 11.9999 19.85 12 19.85C12.0001 19.85 12 19.85 11.9997 19.85C11.9963 19.8497 11.9632 19.8474 11.9032 19.8283C11.8415 19.8087 11.7748 19.7787 11.7145 19.7425C11.5541 19.6462 11.2228 19.3848 10.5927 18.8383C10.1545 18.4582 9.60712 17.9721 8.92067 17.3625C8.6561 17.1276 8.37089 16.8743 8.06331 16.6017L8.06334 16.6016L8.05618 16.5954L6.93166 15.6176C6.60691 15.2955 6.2426 14.9839 5.9474 14.7378C3.27309 12.4233 1 10.366 1 7.25C1 3.72233 3.62562 1.00855 6.68649 1.04991L6.68649 1.05H6.7C8.61517 1.05 10.0212 1.7847 11.1922 3.38947Z" stroke="black" stroke-width="2"/>
+                        </svg>
+                        <svg class="icon comment-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.6444 16.9944C21.8595 14.8925 22.2678 12.4202 21.7931 10.0392C21.3184 7.65816 19.9932 5.53141 18.0649 4.05622C16.1366 2.58103 13.7372 1.8583 11.3149 2.02305C8.89265 2.1878 6.61321 3.22875 4.90242 4.95146C3.19163 6.67416 2.16651 8.96077 2.01858 11.3841C1.87064 13.8075 2.61001 16.2018 4.09855 18.1198C5.58708 20.0378 7.72298 21.3483 10.1072 21.8065C12.4915 22.2646 14.9609 21.8391 17.0544 20.6094L21.9884 21.9864L20.6444 16.9944Z" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                        <svg class="icon foward-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 3L9.21802 10.083" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M11.698 20.334L22 3.00098H2L9.218 10.084L11.698 20.334Z" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
                     </div>
                     <div class="information-section">
                         <div class="description">
@@ -56,5 +63,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./src/carousel.js"></script>
     <script src="./src/comments.js"></script>
+    <script src="./src/like.js"></script>
 </body>
 </html>

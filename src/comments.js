@@ -12,8 +12,8 @@ function addNewComment(user_text) {
     var text = user_text;
      
     const commentsSection = document.getElementById('comments');
-    commentsSection.appendChild( addNewComment );
-    addNewComment.appendChild( commentTitle ).insertAdjacentText("afterend", text);
+    commentsSection.appendChild(addNewComment);
+    addNewComment.appendChild(commentTitle).insertAdjacentText("afterend", text);
     document.getElementById("comment-input").value = ''
 }
 
