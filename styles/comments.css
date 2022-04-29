@@ -34,8 +34,6 @@
     cursor: pointer;
     color: #3D8AFF;
     font-weight: 700;
-    font-size: 12px;
-    font-height: 14.52px;
     font-weight: 700;
 }
 
@@ -46,8 +44,6 @@ input {
     border: none;
     height: 55px;
     padding: 15px 60px 15px 15px;
-    font-size: 12px;
-    font-height: 14.52px;
 }
 
 input:focus {
