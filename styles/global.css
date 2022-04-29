@@ -26,7 +26,7 @@ body {
 
 .card {
     max-width: 530px;
-    height: 630px;
+    height: 730px;
     width: 100%;
     background-color: #FCFCFC;
     border: 1px solid rgba(222, 222, 222, 1);
@@ -109,3 +109,4 @@ input:focus {
     color: #3D8AFF;
     font-weight: 700;
 }
+

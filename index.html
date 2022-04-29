@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/carousel.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>InstaPage</title>
 </head>
 <body>
@@ -22,7 +24,14 @@
                     </span>
                 </header>
                 <section>
-                    <div class="carousel"></div>
+                    <div class="carousel">
+                        <div class="swiper" id="swiper">
+                            <div class="swiper-wrapper" id="swiper-wrapper"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
                     <div class="icons">
                         <img src="./images/icons/heart-icon.svg" alt="" class="icon like-icon">
                         <img src="./images/icons/comment-icon.svg" alt="" class="icon comment-icon">
@@ -46,5 +55,7 @@
             </footer>
         </div>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/carousel.js"></script>
 </body>
 </html>
