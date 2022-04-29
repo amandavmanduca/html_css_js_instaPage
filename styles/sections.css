@@ -27,6 +27,7 @@ body {
 
 .main-section {
     width: 100%;
+    height: calc(100% - 55px)
 }
 
 footer {
