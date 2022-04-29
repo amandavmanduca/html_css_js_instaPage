@@ -9,11 +9,10 @@ function addNewComment(user_text) {
     
     const addNewComment = document.createElement('p');
     addNewComment.className = 'comment-text'
-    var text = user_text;
      
     const commentsSection = document.getElementById('comments');
     commentsSection.appendChild(addNewComment);
-    addNewComment.appendChild(commentTitle).insertAdjacentText("afterend", text);
+    addNewComment.appendChild(commentTitle).insertAdjacentText("afterend", user_text);
     document.getElementById("comment-input").value = ''
 }
 

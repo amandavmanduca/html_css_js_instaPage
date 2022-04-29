@@ -1,0 +1,51 @@
+.comments {
+    display: grid;
+    grid-gap: 5px;
+    padding: 0px 5px 0px 0px;
+    max-height: 105px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: gray #FAFAFA;
+}
+
+.comments::-webkit-scrollbar {
+    width: 5px;
+}
+
+.comments::-webkit-scrollbar-track {
+    background: #FAFAFA;
+}
+
+.comments::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.comment-section {
+    position: relative;
+    display: flex;
+}
+
+.comment-button {
+    margin-left: -50px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #3D8AFF;
+    font-weight: 700;
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    background: rgba(241, 241, 241, 1);
+    border-radius: 5px;
+    border: none;
+    height: 55px;
+    padding: 15px 60px 15px 15px;
+}
+
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,25 @@
+.icons {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.description, .information-section {
+    width: 100%;
+}
+
+.information-section {
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.post-text, .comment-text {
+    text-align: justify;
+}
