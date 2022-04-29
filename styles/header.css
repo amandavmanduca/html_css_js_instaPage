@@ -1,0 +1,31 @@
+header {
+    height: 75px;
+    padding: 15px 25px 10px;
+    display: flex;
+    gap: 25px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3px 0px;
+}
+
+.user-name {
+    font-size: 14px;
+    font-height: 16.94px;
+    font-weight: 500;
+}
+
+.user-photo {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.user-location {
+    font-size: 10px;
+    font-height: 12px;
+    font-weight: 400;
+}
